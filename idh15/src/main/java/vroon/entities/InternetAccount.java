@@ -2,7 +2,7 @@ package vroon.entities;
 import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
 import org.apache.camel.dataformat.bindy.annotation.DataField;
 
-@CsvRecord( separator = ";", generateHeaderColumns=true )
+@CsvRecord( separator = ";", generateHeaderColumns=false )
 public class InternetAccount {
 	@DataField(pos=1)
 	public String username;
