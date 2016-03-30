@@ -13,7 +13,6 @@ public class VroonEIA {
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		CamelContext context = new DefaultCamelContext();
 		
 		try {
@@ -29,7 +28,6 @@ public class VroonEIA {
 			context.stop();
 			System.out.println("context.stop");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

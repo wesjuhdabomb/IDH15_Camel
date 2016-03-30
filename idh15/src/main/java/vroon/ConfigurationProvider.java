@@ -15,7 +15,6 @@ public class ConfigurationProvider {
 			try {
 				prop.load(input);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return "";
 			}

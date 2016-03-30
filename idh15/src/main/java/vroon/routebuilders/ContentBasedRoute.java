@@ -18,7 +18,6 @@ public class ContentBasedRoute extends RouteBuilder{
 			.when(simple("${in.body.getStatus()} == 'Deleted'"))
 				.to("direct:" + ConfigurationProvider.GetProperty("vroon.integration.deleteduser.queue")+ "?block=true&timeout=5000")
 			.otherwise().to("mock:result")
-//		.end();
 		;
 	}
 	
