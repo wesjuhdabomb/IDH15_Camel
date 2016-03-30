@@ -1,6 +1,5 @@
 package vroon.routebuilders;
 
-import java.util.ArrayList;
 import java.util.Collection;
 
 import org.apache.camel.Exchange;
